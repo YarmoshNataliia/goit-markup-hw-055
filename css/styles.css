@@ -227,6 +227,8 @@ button {
   letter-spacing: 0.04em;
   color: var(--main-button-text-color);
   background: var(--main-button-bg-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:is(:hover, :focus) {
   background: var(--activ-button-bg-hover-color);
@@ -375,6 +377,8 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:is(:hover, :focus) {
@@ -419,7 +423,8 @@ button {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .coust-icons {
@@ -519,7 +524,8 @@ button {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------сторінка2-Portfolio------------------ */
@@ -564,6 +570,8 @@ button {
   cursor: pointer;
   background: #f4f4fd;
   padding: 12px 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filtr-btn:is(:hover, :focus) {
